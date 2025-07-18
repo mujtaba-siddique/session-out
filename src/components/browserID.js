@@ -1,5 +1,4 @@
 import React from 'react';
-
 function getOrCreateBrowserId() {
   let browserId = localStorage.getItem('browserId');
   if (!browserId) {
